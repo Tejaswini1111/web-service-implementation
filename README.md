@@ -1,3 +1,11 @@
+# Appication overview
+A spring boot project with a simple Drivers and Cars data.
+Endpoints
+* http://localhost:8080/driver
+* http://localhost:8080/driver/{id}
+* http://localhost:8080/driver/{id}/car
+* http://localhost:8080/driver/{id}/car/{carId}
+
 # Getting Started
 Basic spring boot deployment.
 * Build the application using `mvn clean install`. If you don't have maven installed in your computer then use `./mvnw clean install`
